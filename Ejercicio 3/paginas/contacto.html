@@ -18,9 +18,68 @@
         <p> Nuestros numeros de Contacto</p>
         <img src="../imagenes/contacto.jpg" alt="100%">
     </div>
-    <!-- colocar un enlace que me dirija a inicio  -->
-    <!-- colocar un enlace que me dirija a servicios  -->
-    <!-- colocar un enlace que me dirija a productos  -->
-    <!-- colocar una imagen  -->
+    <div style="text-align: left;">
+        <h1>Registro de usuario</h1>
+        <h2>Datos personales</h2>
+        <form>
+            <label>Nombre</label> <br>
+            <input name="Nombre" required type="text" placeholder="Escribir en mayuscula"> <br>
+            <label>Apellidos</label> <br>
+            <input name="Apellidos" required type="text" placeholder="Escribir en mayuscula"> <br>
+            <label>DNI</label> <br>
+            <input name="Edad" type="number" min="18" max="60"> <br>
+
+            <h2>Datos de conexión</h2>
+
+            <label>Nombre de usuario</label> <br>
+            <input name="Usuario" required type="text" placeholder="Escribir en mayuscula"> <br>
+            <label>Contraseña</label><br>
+            <input name="password" type="password" placeholder="Ingresar Contraseña"> <br>
+            <label>Repetir Contraseña</label> <br>
+            <input name="password" type="password" placeholder="Ingresar Contraseña"><br><br>
+            <button type="submit">Enviar</button>
+            <button type="reset">Borrar</button>
+        </form>
+        <br> <br>
+
+    </div>
+    <div style="text-align: left;">
+        <H1>Formularios de pagos</H1>
+        <br><br>
+        <h2>MIS DATOS</h2>
+        <form>
+            <label>1. Nombre: </label>
+            <input name="Nombre" required type="text" placeholder="Escriba su nombre aquí"> <br>
+            <label>2. Correo electronico: </label> 
+            <input name="Correo" type="email" placeholder="ejemplo@dominio"><br>
+            <label>3. Teléfono: </label>
+            <input name="telefono" type="tel" placeholder="ej + 3594225665"> <br>
+            <br><br>
+            <h2>Dirección</h2>
+            <label>1. Dirección</label>
+            <input type="text" placeholder="ingrese aqui"> <br>
+            <label>2. Código postal: </label>
+            <input type="text" placeholder="CP"><br>
+            <label>3. Ciudad: </label>
+            <input type="text" placeholder="Ciudad">
+            <br><br>
+            <h2>Forma de pago</h2>
+            <label>1. Tarjetas de Credito </label> <br>
+            <input type="checkbox" name="Medio" value="VISA"> VISA <br>
+            <input type="checkbox" name="Medio" value="American Express"> American Express <br>      
+            <input type="checkbox" name="Medio" value="Master Card"> Master Card <br> <br>
+            <label>2. Número de tarjeta </label>
+            <input type="number" placeholder="Número de tarjeta"> <br>
+            <label>3. Código de seguridad </label>
+            <input type="number" placeholder="Código de seguridad"> <br>
+            <label for="">4. Nombre de tarjeta </label>
+            <input type="number" placeholder="Nombre exacto tarjeta"> <br><br>
+            <button type="submit">Comprar</button>
+
+
+        </form>
+        
+    </div>
+    
 </body>
 </html>
